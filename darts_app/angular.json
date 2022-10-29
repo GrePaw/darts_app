@@ -3,17 +3,17 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "darts_app": {
+    "exampleapplication": {
       "projectType": "application",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "dapp",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/darts_app",
+            "outputPath": "dist/exampleapplication",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "darts_app:build:production"
+              "browserTarget": "exampleapplication:build:production"
             },
             "development": {
-              "browserTarget": "darts_app:build:development"
+              "browserTarget": "exampleapplication:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "darts_app:build"
+            "browserTarget": "exampleapplication:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "dce20d7b-ff12-476e-bbca-ea11b2ff1a57"
+    "analytics": "8984a20e-b476-4b01-9d76-34e6cb045364"
   }
 }
