@@ -8,9 +8,8 @@
     <img src="../assets/background_dartboard.jpg">
     <! weather-data component will be defined here from the content side >
     <! and the respective stly will be defined in the style css file>
-    <div class="weather-data">
-      <div class="location">
-        <table class="styled-table">
+    <div class="upper-container">
+        <table class="upper-table">
           <thead>
               <tr>
                   <th>Name</th>
@@ -57,25 +56,21 @@
               <!-- and so on... -->
           </tbody>
         </table>
-      
-      </div>
-        
-      
     </div>
   </div>
 
   <div class="lower-data">
     
     <div class="leftpane">
-      <h2>Melissa</h2>
-      <table class="lower-table">
-        <thead class="lower-table thead">
+      <p class="players_name_highlighted">Melissa</p>
+      <table class="lower-table-left">
+        <thead class="lower-table-left thead">
           <tr>
             <td>Category</td>
             <td>Value</td>
           </tr>
         </thead>
-        <tbody class="lower-table tbody">
+        <tbody class="lower-table-left tbody">
           <tr>
             <td>Max this game:</td>
             <td>80</td>
@@ -89,7 +84,7 @@
     </div>
       
     <div class="middlepane">
-      <h3>Choose input value </h3>
+      <p class="headline"> Choose input value</p>
        
       <table class="lower-table-middle">
         <tbody>
@@ -111,9 +106,9 @@
       </table>
     </div>   
     <div class="rightpane">
-        <h3>Or enter manually</h3>
-        <button class="dummy_textfield_button">Enter text here</button>
-        <button class="dummy_safe_button">Safe</button>
+      <p class="headline">Or enter manually</p>
+      <button class="dummy_textfield_button">Enter text here</button>
+      <button class="dummy_safe_button">Safe</button>
     </div> 
     
      
